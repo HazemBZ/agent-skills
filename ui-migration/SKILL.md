@@ -1,3 +1,8 @@
+---
+name: ui-migration
+description: Track component provenance (shadcn, custom, wrapper) during UI library migrations. Optionally integrates with the todo-workflow skill for multi-step migration tracking.
+---
+
 # UI Migration Skill
 
 Track component provenance (shadcn, custom, wrapper) during UI library migrations. Optionally integrates with the `todo-workflow` skill for multi-step migration tracking.
