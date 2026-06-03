@@ -1,3 +1,8 @@
+---
+name: todo-workflow
+description: A structured workflow for tracking multi-step migration and refactoring tasks via a persistable TODOS.md file.
+---
+
 # TODO Workflow Skill
 
 A structured workflow for tracking multi-step migration and refactoring tasks via a persistable `TODOS.md` file.

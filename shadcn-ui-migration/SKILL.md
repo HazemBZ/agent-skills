@@ -1,3 +1,8 @@
+---
+name: shadcn-ui-migration
+description: A step-by-step playbook for migrating a React project from a hand-rolled/custom design system to shadcn/ui. Covers Tailwind v3→v4, shadcn init, component-by-component replacement, theme reconciliation, lint recovery, and cleanup.
+---
+
 # shadcn/ui Migration Skill
 
 A step-by-step playbook for migrating a React project from a hand-rolled/custom design system to shadcn/ui. Covers Tailwind v3→v4, shadcn init, component-by-component replacement, theme reconciliation, lint recovery, and cleanup.
