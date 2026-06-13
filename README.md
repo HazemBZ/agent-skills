@@ -9,6 +9,7 @@ A collection of reusable agent skills. Each top-level folder is a self-contained
 | [`todo-workflow`](./todo-workflow/SKILL.md) | Tracks multi-step migrations/refactors via a persisted `TODOS.md` + `ERRORS.md` workflow with inter-session archival. | Long-running refactors, migrations, and feature builds that span multiple sessions. |
 | [`ui-migration`](./ui-migration/SKILL.md) | Tracks component provenance (shadcn / custom / wrapper / legacy) during UI library migrations. | Migrating a project between UI libraries (e.g. legacy design system → shadcn/ui). |
 | [`shadcn-ui-migration`](./shadcn-ui-migration/SKILL.md) | Step-by-step playbook for migrating a React project from a custom design system to shadcn/ui, covering Tailwind v3→v4, shadcn init, component swaps, theme reconciliation, and cleanup. | Migrating from hand-rolled components to shadcn/ui, upgrading Tailwind alongside a shadcn migration. |
+| [`phase-tracking`](./phase-tracking/SKILL.md) | Dual-layer planning and state management: `project_state.json` for persistent inter-session tracking + `todowrite`/`todoread` for in-session atomic task decomposition. Tracks completed/pending phases, ADRs, known issues, and next steps. | Phased development plans, milestone-based delivery, multi-session incremental builds. |
 
 ## Installation
 
