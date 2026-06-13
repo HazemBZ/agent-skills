@@ -10,6 +10,7 @@ A collection of reusable agent skills. Each top-level folder is a self-contained
 | [`ui-migration`](./ui-migration/SKILL.md) | Tracks component provenance (shadcn / custom / wrapper / legacy) during UI library migrations. | Migrating a project between UI libraries (e.g. legacy design system → shadcn/ui). |
 | [`shadcn-ui-migration`](./shadcn-ui-migration/SKILL.md) | Step-by-step playbook for migrating a React project from a custom design system to shadcn/ui, covering Tailwind v3→v4, shadcn init, component swaps, theme reconciliation, and cleanup. | Migrating from hand-rolled components to shadcn/ui, upgrading Tailwind alongside a shadcn migration. |
 | [`phase-tracking`](./phase-tracking/SKILL.md) | Dual-layer planning and state management: `project_state.json` for persistent inter-session tracking + `todowrite`/`todoread` for in-session atomic task decomposition. Tracks completed/pending phases, ADRs, known issues, and next steps. | Phased development plans, milestone-based delivery, multi-session incremental builds. |
+| [`idea-expansion`](./idea-expansion/SKILL.md) | Transforms rough ideas, goals, or problem statements into deeply structured, actionable, execution-ready plans. | The user has a vague idea but needs a concrete execution plan; or wants to analyze a market/domain/problem with a structured roadmap. |
 
 ## Installation
 
@@ -40,8 +41,9 @@ Use this when you want edits in the repo to be live in your agent without re-run
 
 ```bash
 git clone https://github.com/HazemBZ/agent-skills.git ~/code/agent-skills
-ln -s ~/code/agent-skills/todo-workflow ~/.agents/skills/todo-workflow
-ln -s ~/code/agent-skills/ui-migration  ~/.agents/skills/ui-migration
+ln -s ~/code/agent-skills/todo-workflow    ~/.agents/skills/todo-workflow
+ln -s ~/code/agent-skills/ui-migration     ~/.agents/skills/ui-migration
+ln -s ~/code/agent-skills/idea-expansion   ~/.agents/skills/idea-expansion
 ```
 
 After this, `git pull` in `~/code/agent-skills` updates your installed skills automatically.
@@ -52,8 +54,9 @@ Use this if you want a frozen snapshot.
 
 ```bash
 git clone https://github.com/HazemBZ/agent-skills.git /tmp/agent-skills
-cp -r /tmp/agent-skills/todo-workflow ~/.agents/skills/
-cp -r /tmp/agent-skills/ui-migration  ~/.agents/skills/
+cp -r /tmp/agent-skills/todo-workflow    ~/.agents/skills/
+cp -r /tmp/agent-skills/ui-migration     ~/.agents/skills/
+cp -r /tmp/agent-skills/idea-expansion   ~/.agents/skills/
 rm -rf /tmp/agent-skills
 ```
 
